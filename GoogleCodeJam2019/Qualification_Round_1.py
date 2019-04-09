@@ -1,13 +1,13 @@
-Problem Link: https://codingcompetitions.withgoogle.com/codejam/round/0000000000051705/0000000000088231
-Solution Author: Manish Singla 
-Linkedin url: https://www.linkedin.com/in/programmermanish/
-Date: 07/04/2019
+#Problem Link: https://codingcompetitions.withgoogle.com/codejam/round/0000000000051705/0000000000088231
+#Solution Author: Manish Singla 
+#Linkedin url: https://www.linkedin.com/in/programmermanish/
+#Date: 07/04/2019
 
 ####Solution Approach: Constructive####
-For each input number n i.e. 54384, we can reaplce all 4's in this number with 1's and then add a 3 to repective places.
-54584 can be written as:
-41581 +
-03003
+#For each input number n i.e. 54384, we can reaplce all 4's in this number with 1's and then add a 3 to repective places.
+#54584 can be written as:
+#41581 +
+#03003
 
 ####Code####
 t=int(input()) # there are t test cases
