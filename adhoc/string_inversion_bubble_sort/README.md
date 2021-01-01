@@ -32,9 +32,12 @@ Print the list of users to be considered for making a recommendation. The list m
 Alice 1, John 3
 
 ### Algorithm
-1. Assign numbers to First user choice in First come first way - O(n)
-2. For each subsequent user - O(n * m)
+n = number of users
+m = maximum number of choices for any user
+1. Assign numbers to First user choice in First come first way - O(m)
+2. For each subsequent user - O((n-1) * (m^2))
     1. Map user choices to numbers assigned in first step and save choices in an array.
     2. Use bubble sort on array created in above step and count the number of swap required to sort the array.
     3. Append user count to save it for later use.
 3. sort the user count list in acsending order - O(n log(n))
+Overall Worst Time Complexity = O(n * (m^2))
