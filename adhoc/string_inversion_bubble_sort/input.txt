@@ -1,0 +1,3 @@
+Bob:Chocolates,Muffins,Snackbar
+Alice:Muffins,Chocolates,Snackbar
+John:Snackbar,Muffins,Chocolates
